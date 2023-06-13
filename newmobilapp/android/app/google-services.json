@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "175668662676",
+    "project_id": "newmobilapp",
+    "storage_bucket": "newmobilapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175668662676:android:23f69519d9508a3fd5bf81",
+        "android_client_info": {
+          "package_name": "com.goril.newmobilapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175668662676-9bbr3lkmp06h832p9f9g25p7eiqd81lq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy-OXgvH1Q7QhPgJYctY88RWnX78MUcr8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175668662676-9bbr3lkmp06h832p9f9g25p7eiqd81lq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

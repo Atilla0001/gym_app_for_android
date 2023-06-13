@@ -1,0 +1,270 @@
+name: newmobilapp
+description: A new Flutter project.
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number is used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+# In Windows, build-name is used as the major, minor, and patch parts
+# of the product and file versions while build-number is used as the build suffix.
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  animated_text_kit: ^4.2.2
+  sqflite: ^2.2.8+2
+  path: ^1.8.2
+  intl: ^0.17.0
+  charts_flutter: ^0.12.0
+  pie_chart: ^5.3.2
+  path_provider: ^2.0.15
+  open_filex: ^4.3.2
+  http: ^1.0.0
+  google_fonts:
+  fl_chart:
+  provider:
+  firebase_core:
+  firebase_auth:
+  cloud_firestore:
+  flutter_svg:
+  uuid:
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: true
+  image_path: "icons/man.png"
+  adaptive_icon_background: "#301934"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  image_path: "icons/man.png"
+  min_sdk_android: 19
+  web:
+    generate: true
+    image_path: "icons/man.png"
+    background_color: "#301934"
+  windows:
+    generate: true
+    image_path: "icons/man.png"
+    icon_size: 48
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^2.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter packages.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/GymWorkk.jpeg
+    - assets/images/instagram.png
+    - assets/images/man.png
+    - assets/images/twitter.png
+    - assets/images/HouseWork.jpeg
+    - assets/images/gogus.jpg
+    - assets/images/omuz.jpg
+    - assets/images/ArkaPlan.jpg
+    - assets/images/Kol.jpg
+    - assets/images/Sirt.jpg
+    - assets/images/Karin.jpg
+    - assets/images/Bacak.jpg
+    - assets/images/Kalca.jpg
+    - assets/images/Sinav.jpg
+    - assets/images/IcGogus.jpg
+    - assets/images/UstGogus.jpg
+    - assets/images/OnOmuz.jpg
+    - assets/images/OrtaOmuz.jpeg
+    - assets/images/ArkaOmuz.jpg
+    - assets/images/trapez.jpg
+    - assets/images/OrtaSirt.jpg
+    - assets/images/Kanat.jpg
+    - assets/images/Bel.jpg
+    - assets/images/OnKol.jpg
+    - assets/images/OnBacak.jpg
+    - assets/images/ArkaBacak.jpg
+    - assets/images/DisBacak.jpeg
+    - assets/images/IcBacak.jpg
+    - assets/images/Kalf.jpg
+    - assets/images/HomeSinav.jpg
+    - assets/images/HomeBarfix.jpg
+    - assets/images/HomeMekik.jpg
+    - assets/images/HomeSquat.jpg
+    - assets/images/HomeDips.jpg
+    - assets/images/HomePikePushUP.jpg
+    - assets/images/HomeOnKol.jpg
+    - assets/images/HomeKalca.jpg
+    - assets/images/HomeKalf.jpg
+    - assets/images/HomeYanKarin.jpg
+    - assets/images/DDF.jpg
+    - assets/images/AGSinav.jpg
+    - assets/images/SMDP.jpg
+    - assets/images/DBBP.jpg
+    - assets/images/DumbellFly.jpg
+    - assets/images/ChestDips.jpg
+    - assets/images/DSP.jpg
+    - assets/images/HAMMER-PRESS.jpg
+    - assets/images/HP.jpg
+    - assets/images/CC.jpg
+    - assets/images/IBCF.jpg
+    - assets/images/LCC.jpg
+    - assets/images/PushUp.jpg
+    - assets/images/SMIP.jpg
+    - assets/images/IBBP.jpg
+    - assets/images/PFR.jpg
+    - assets/images/ArnoldPress.jpg
+    - assets/images/BNP.jpg
+    - assets/images/BSP.jpg
+    - assets/images/DFR.jpg
+    - assets/images/ODF.jpg
+    - assets/images/UR.jpg
+    - assets/images/MLR.jpg
+    - assets/images/OACL.jpg
+    - assets/images/SLLR.jpg
+    - assets/images/LR.jpg
+    - assets/images/SPL.jpg
+    - assets/images/FP.jpg
+    - assets/images/BOL.jpg
+    - assets/images/BOC.jpg
+    - assets/images/RMF.jpg
+    - assets/images/Shrug.jpg
+    - assets/images/BShrug.jpg
+    - assets/images/Dead.jpg
+    - assets/images/Upr.jpg
+    - assets/images/TMekik.jpg
+    - assets/images/TBar.jpg
+    - assets/images/DRow.jpg
+    - assets/images/CRow.jpg
+    - assets/images/CG.jpg
+    - assets/images/BLP.jpg
+    - assets/images/IR.jpg
+    - assets/images/BarbellR.jpg
+    - assets/images/SAP.jpg
+    - assets/images/BACKL.jpg
+    - assets/images/OnKol1.jpg
+    - assets/images/BICEPS.jpg
+    - assets/images/hammer-curls-2018.jpg
+    - assets/images/CONCENTRATION-CURL.jpg
+    - assets/images/seated-dumbbell-curl-2018.jpg
+    - assets/images/PREACHER-CURLS-2.jpg
+    - assets/images/BICEPS-CURL-MACHINE.jpg
+    - assets/images/high-pulley-curl-768x420.jpg
+    - assets/images/barbell-curl-1.jpg
+    - assets/images/rope.jpg
+    - assets/images/OAR.jpg
+    - assets/images/oad.jpg
+    - assets/images/odt.jpg
+    - assets/images/tp.jpg
+    - assets/images/td.jpg
+    - assets/images/sc.jpg
+    - assets/images/tdk.jpg
+    - assets/images/onearm.jpg
+    - assets/images/wc.jpg
+    - assets/images/rwc.jpg
+    - assets/images/rbc.jpg
+    - assets/images/gs.jpg
+    - assets/images/ht.jpg
+    - assets/images/ck.jpg
+    - assets/images/lunges.jpg
+    - assets/images/js1.jpg
+    - assets/images/ds.jpg
+    - assets/images/ss.jpg
+    - assets/images/cha.jpg
+    - assets/images/ks.jpg
+    - assets/images/bl.jpg
+    - assets/images/bs.jpg
+    - assets/images/le.jpg
+    - assets/images/lpress.jpg
+    - assets/images/hacks.jpg
+    - assets/images/lc.jpg
+    - assets/images/slc.jpg
+    - assets/images/Seat.jpg
+    - assets/images/stiff.jpg
+    - assets/images/fsq.jpg
+    - assets/images/sqt.jpg
+    - assets/images/chaa.jpg
+    - assets/images/sea.jpg
+    - assets/images/calf.jpg
+    - assets/images/donkey.jpg
+    - assets/images/scr.jpg
+    - assets/images/scbr.jpg
+    - assets/images/sm.jpg
+    - assets/images/plank-hareketi.jpg
+    - assets/images/plank.jpg
+    - assets/images/cac.jpg
+    - assets/images/moun.jpg
+    - assets/images/mek.jpg
+    - assets/images/mcru.jpg
+    - assets/images/mcr.jpg
+    - assets/images/dec.jpg
+    - assets/images/inc.png
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
